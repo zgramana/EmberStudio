@@ -1,0 +1,1 @@
+// Replace `MyApp` with your App's name.// Replace `MyController` with your Controller's name.MyApp.$fileinputname$ = Ember.ArrayController.extend({});

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="EmberStudio.VSIX..08c70a9c-d831-4fcf-bb0d-b5f754175b2e">
+    <Name>EmberStudio</Name>
+    <Author>Zachary Gramana</Author>
+    <Version>0.9</Version>
+    <Description xml:space="preserve">Ember tooling for Visual Studio 201x.</Description>
+    <Locale>1033</Locale>
+    <MoreInfoUrl>https://github.com/zgramana/EmberStudio</MoreInfoUrl>
+    <GettingStartedGuide>https://github.com/zgramana/EmberStudio/wiki/Getting-Started</GettingStartedGuide>
+    <SupportedProducts>
+      <VisualStudio Version="10.0">
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
+        <Edition>Pro</Edition>
+      </VisualStudio>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.5" />
+  </Identifier>
+  <References />
+  <Content>
+    <Assembly AssemblyName="|EmberStudioWizards;AssemblyName|">|EmberStudioWizards|</Assembly>
+    <ProjectTemplate>ProjectTemplates</ProjectTemplate>
+    <ItemTemplate>ItemTemplates</ItemTemplate>
+  </Content>
+</Vsix>

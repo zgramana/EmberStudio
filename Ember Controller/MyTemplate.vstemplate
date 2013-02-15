@@ -1,0 +1,19 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>Controller.js</DefaultName>
+    <Name>Ember Controller</Name>
+    <Description>A basic Ember Handlebars template file.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.js" ReplaceParameters="true">Controller.js</ProjectItem>
+  </TemplateContent>
+<!--  <WizardExtension>
+	<Assembly>EmberStudioWizards</Assembly>
+    <FullClassName>EmberStudio.EmberControllerTemplateWizard</FullClassName>
+  </WizardExtension> -->
+</VSTemplate>

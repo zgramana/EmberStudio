@@ -2,7 +2,7 @@
   <TemplateData>
     <Name>Ember Web Application</Name>
     <Description>Ember web application based on ASP.NET MVC 4</Description>
-    <ProjectType>CSharp</ProjectType>
+    <ProjectType>Web</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
@@ -14,7 +14,7 @@
     <Icon>__TemplateIcon.png</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="Hello.Ember.csproj" File="Hello.Ember.csproj" ReplaceParameters="true">
+    <Project TargetFileName="EmberWebProject.csproj" File="EmberWebProject.csproj" ReplaceParameters="true">
       <Folder Name="App_Data" TargetFolderName="App_Data" />
       <Folder Name="App_Start" TargetFolderName="App_Start">
         <ProjectItem ReplaceParameters="true" TargetFileName="BundleConfig.cs">BundleConfig.cs</ProjectItem>
@@ -41,36 +41,27 @@
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       </Folder>
-      <Folder Name="Scripts" TargetFolderName="Scripts">
-        <ProjectItem ReplaceParameters="true" TargetFileName="_references.js">_references.js</ProjectItem>
-        <Folder Name="$safeprojectname$" TargetFolderName="App">
-          <ProjectItem ReplaceParameters="true" TargetFileName="App.js">App.js</ProjectItem>
-          <Folder Name="Controllers" TargetFolderName="Controllers">
-            <ProjectItem ReplaceParameters="true" TargetFileName="AboutController.js">AboutController.js</ProjectItem>
-            <ProjectItem ReplaceParameters="true" TargetFileName="HomeController.js">HomeController.js</ProjectItem>
-          </Folder>
-          <Folder Name="Helpers" TargetFolderName="Helpers" />
-          <Folder Name="Libraries" TargetFolderName="Libraries" />
-          <Folder Name="Models" TargetFolderName="Models" />
-          <ProjectItem ReplaceParameters="true" TargetFileName="Router.js">Router.js</ProjectItem>
-          <Folder Name="Routes" TargetFolderName="Routes">
-            <ProjectItem ReplaceParameters="true" TargetFileName="IndexRoute.js">IndexRoute.js</ProjectItem>
-          </Folder>
-          <Folder Name="Templates" TargetFolderName="Templates">
-            <ProjectItem ReplaceParameters="true" TargetFileName="about.handlebars">about.handlebars</ProjectItem>
-            <ProjectItem ReplaceParameters="true" TargetFileName="application.handlebars">application.handlebars</ProjectItem>
-            <ProjectItem ReplaceParameters="true" TargetFileName="home.handlebars">home.handlebars</ProjectItem>
-          </Folder>
-          <Folder Name="Views" TargetFolderName="Views" />
-        </Folder>
-        <ProjectItem ReplaceParameters="true" TargetFileName="ember.js">ember.js</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="ember.min.js">ember.min.js</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="handlebars-1.0.rc.2.js">handlebars-1.0.rc.2.js</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.7.2-vsdoc.js">jquery-1.7.2-vsdoc.js</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.7.2.js">jquery-1.7.2.js</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.7.2.min.js">jquery-1.7.2.min.js</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="modernizr-2.6.2.js">modernizr-2.6.2.js</ProjectItem>
-      </Folder>
+      <Folder Name="Scripts" TargetFolderName="Scripts" />
+      <ProjectItem>Scripts\_references.js</ProjectItem>
+      <ProjectItem>Scripts\ember.js</ProjectItem>
+      <ProjectItem>Scripts\ember.min.js</ProjectItem>
+      <ProjectItem>Scripts\handlebars-1.0.rc.2.js</ProjectItem>
+      <ProjectItem>Scripts\jquery-1.7.2-vsdoc.js</ProjectItem>
+      <ProjectItem>Scripts\jquery-1.7.2.js</ProjectItem>
+      <ProjectItem>Scripts\jquery-1.7.2.min.js</ProjectItem>
+      <ProjectItem>Scripts\modernizr-2.6.2.js</ProjectItem>
+	  <ProjectItem>Scripts\App\App.js</ProjectItem>
+	  <ProjectItem>Scripts\App\Controllers\AboutController.js</ProjectItem>
+	  <ProjectItem>Scripts\App\Controllers\HomeController.js</ProjectItem>
+      <Folder Name="Helpers" TargetFolderName="Helpers" />
+      <Folder Name="Libraries" TargetFolderName="Libraries" />
+      <Folder Name="Models" TargetFolderName="Models" />
+      <ProjectItem>Scripts\App\Router.js</ProjectItem>
+      <ProjectItem>Scripts\App\Routes\IndexRoute.js</ProjectItem>
+      <ProjectItem>Scripts\App\Templates\about.handlebars</ProjectItem>
+      <ProjectItem>Scripts\App\Templates\application.handlebars</ProjectItem>
+      <ProjectItem>Scripts\App\Templates\home.handlebars</ProjectItem>
+      <Folder Name="Views" TargetFolderName="Views" />
       <Folder Name="Views" TargetFolderName="Views">
         <Folder Name="Ember" TargetFolderName="Ember">
           <ProjectItem ReplaceParameters="false" TargetFileName="Index.cshtml">Index.cshtml</ProjectItem>

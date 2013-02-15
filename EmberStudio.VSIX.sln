@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmberStudio", "EmberStudio.VSIX\EmberStudio.csproj", "{A2D58CB9-6D13-41C8-BEEE-740FBF8448D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmberStudioWizards", "EmberStudioWizards\EmberStudioWizards.csproj", "{3116B921-72E5-4631-9D35-31AB64B5F7D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2D58CB9-6D13-41C8-BEEE-740FBF8448D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D58CB9-6D13-41C8-BEEE-740FBF8448D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D58CB9-6D13-41C8-BEEE-740FBF8448D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D58CB9-6D13-41C8-BEEE-740FBF8448D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3116B921-72E5-4631-9D35-31AB64B5F7D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3116B921-72E5-4631-9D35-31AB64B5F7D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3116B921-72E5-4631-9D35-31AB64B5F7D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3116B921-72E5-4631-9D35-31AB64B5F7D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
