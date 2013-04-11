@@ -6,8 +6,8 @@ A Visual Studio Project Template for Ember.js + Bootstrap + ASP.NET MVC 4 + Hand
 Usage
 =====
 
-The easiest way, at the moment, to get the `Ember Web Application` template into 
-Visual Studio is to download the `.zip` file provided by github above.
+The easiest way to get the `Ember Web Application` template into 
+Visual Studio is via the [Visual Studio Gallery] (http://visualstudiogallery.msdn.microsoft.com/7cee69fc-2dcc-43be-8dad-2147a0c362f4).
 
 Then, extract all the files, which will live in a subdirectory call `EmberStudio-master`.
 
@@ -19,9 +19,3 @@ or `Documents\Visual Studio 2012\Templates\ProjectTemplates`.
 
 That's it! Now go to `New > Project` and select the `Ember Web Application` template. When it's done, 
 just press F5 and enjoy the emberjs/ember.js love.
-
-Roadmap
-=======
-
-A VISX version will appear shortly in the Visual Studio Gallery. Shortly thereafter, we'll be adding
-item templates for views, controllers, routes, models, and helpers.
